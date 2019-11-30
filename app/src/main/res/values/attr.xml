@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TasksCompletedView">
+        <attr name="TRadius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="ringColor" format="color"/>
+    </declare-styleable>
+
+    <!-- 扇形进度条 -->
+    <declare-styleable name="PieProgress">
+        <!--进度  0<= value <= 100 -->
+        <attr name="pieValue" format="integer"/>
+        <!--圆弧半径-->
+        <attr name="pieRadius" format="dimension"/>
+
+        <attr name="pieColor" format="color"/>
+    </declare-styleable>
+
+    <!-- 圆形进度条 -->
+    <declare-styleable name="CircularProgress">
+        <!--进度  0<= value <= 100 -->
+        <attr name="value" format="integer"></attr>
+        <!--圆弧半径-->
+        <attr name="radius" format="dimension"></attr>
+        <!--圆弧宽度-->
+        <attr name="proWidth" format="dimension"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <!--进度条颜色-->
+        <attr name="proColor" format="color"></attr>
+        <!--背景圆颜色-->
+        <attr name="circularColor" format="color"></attr>
+        <!--半透明圆颜色-->
+        <attr name="alphaColor" format="color"></attr>
+    </declare-styleable>
+
+    <!-- 动画进度条 -->
+    <declare-styleable name="AnimationProgress">
+        <!--进度  0<= value <= 100 -->
+        <attr name="ap_Value" format="integer"></attr>
+        <attr name="ap_Color" format="color"></attr>
+        <!--圆角半径-->
+        <attr name="ap_roundRadius" format="dimension"></attr>
+        <!--进度条文本描述大小-->
+        <attr name="ap_textSize" format="dimension"></attr>
+        <!--进度条文本描述颜色-->
+        <attr name="ap_textColor" format="color"></attr>
+        <attr name="ap_text" format="string"></attr>
+        <!--进度数字颜色-->
+        <attr name="ap_numColor" format="color"></attr>
+    </declare-styleable>
+
+    <!-- 紫微命盘 -->
+    <declare-styleable name="MingpanView">
+        <attr name="mp_lineColor" format="color|integer"></attr>
+    </declare-styleable>
+
+</resources>

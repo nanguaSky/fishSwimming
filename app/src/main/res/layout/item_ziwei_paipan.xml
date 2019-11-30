@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@drawable/selector_ziwei_paipan_bg">
+
+    <LinearLayout
+        android:id="@+id/ll_topxing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/topxing0"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="天魁府"
+            android:textSize="@dimen/ziwei_top_xing"
+            android:textColor="@color/ziwei_topxing_gray"
+            android:lineSpacingExtra="-2dp"
+            android:ems="1"/>
+
+        <TextView
+            android:id="@+id/topxing1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/topxing0"
+            android:gravity="center"
+            android:text="天魁府"
+            android:textSize="@dimen/ziwei_top_xing"
+            android:textColor="@color/ziwei_topxing_gray"
+            android:lineSpacingExtra="-2dp"
+            android:ems="1"/>
+
+
+        <TextView
+            android:id="@+id/topxing2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/topxing1"
+            android:gravity="center"
+            android:text="天魁府"
+            android:textSize="@dimen/ziwei_top_xing"
+            android:textColor="@color/ziwei_topxing_gray"
+            android:lineSpacingExtra="-2dp"
+            android:ems="1"/>
+
+        <TextView
+            android:id="@+id/topxing3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/topxing2"
+            android:gravity="center"
+            android:text="天魁府"
+            android:textSize="@dimen/ziwei_top_xing"
+            android:textColor="@color/ziwei_topxing_gray"
+            android:lineSpacingExtra="-2dp"
+            android:ems="1"/>
+
+        <TextView
+            android:id="@+id/topxing4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/topxing3"
+            android:gravity="center"
+            android:text="天魁府"
+            android:textSize="@dimen/ziwei_top_xing"
+            android:textColor="@color/ziwei_topxing_gray"
+            android:lineSpacingExtra="-2dp"
+            android:ems="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/zuozhongxing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/ziwei_top_xing"
+        android:textColor="@color/ziwei_zuozhongxing"
+        android:lineSpacingExtra="-2dp"
+        android:ems="1"
+        android:text="帝王"/>
+
+    <TextView
+        android:id="@+id/youzhongxing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/ziwei_top_xing"
+        android:textColor="@color/ziwei_youzhongxing"
+        android:lineSpacingExtra="-2dp"
+        android:ems="1"
+        android:text="吊客"/>
+
+
+    <TextView
+        android:id="@+id/xiaoxian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_topxing"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/zuozhongxing"
+        android:textSize="@dimen/ziwei_top_xing"
+        android:textColor="@color/black"
+        android:text="2-11"/>
+
+    <TextView
+        android:id="@+id/ganzhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xiaoxian"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/ziwei_ganzhi"
+        android:textColor="@color/black"
+        android:text="乙亥"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/zuoxia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ziwei_youzhongxing"
+            android:lineSpacingExtra="-2dp"
+            android:text="力士"
+            android:ems="1"/>
+
+
+        <TextView
+            android:id="@+id/youxia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ziwei_youzhongxing"
+            android:layout_alignParentRight="true"
+            android:lineSpacingExtra="-2dp"
+            android:text="灾煞"
+            android:ems="1"/>
+
+        <TextView
+            android:id="@+id/minggong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="2dp"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_ziwei_minggong"
+            android:text="命宫" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

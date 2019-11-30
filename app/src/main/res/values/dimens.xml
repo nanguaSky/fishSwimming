@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!--公共部分-->
+    <!--文章一级标题 深灰（黑） 15sp-->
+    <dimen name="sp_15">15sp</dimen>
+    <!--文章二级署名 深灰 13sp-->
+    <dimen name="sp_13">13sp</dimen>
+    <!--cardView 圆角半径-->
+    <dimen name="cardView_radiu">2dp</dimen>
+    <!--cardView 阴影-->
+    <dimen name="cardView_shadow">2dp</dimen>
+    <!--cardView之间间隔-->
+    <dimen name="cardView_divider">10dp</dimen>
+    <!--divider-->
+    <dimen name="px_1">1px</dimen>
+    <!--model之间间隔-->
+    <dimen name="model_divider">10dp</dimen>
+
+    <dimen name="textSize_xs">10sp</dimen>
+    <dimen name="textSize_s">12sp</dimen>
+    <dimen name="textSize_m">14sp</dimen>
+    <dimen name="textSize_l">16sp</dimen>
+    <dimen name="textSize_xl">18sp</dimen>
+    <dimen name="textSize_xxl">20sp</dimen>
+    <dimen name="et_delete_width">15dp</dimen>
+    <!-- CircleLinePageIndicator -->
+    <dimen name="circle_line_indicator_radius">3dp</dimen>
+
+    <!-- margin sise -->
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_middle">12dp</dimen>
+
+
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_larger">50dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+    <!--紫微命盘-->
+    <dimen name="ziwei_top_xing">12sp</dimen>
+    <dimen name="ziwei_ganzhi">10sp</dimen>
+
+</resources>

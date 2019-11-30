@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.example.steven.myapplication.base.TriangleView
+        android:id="@+id/triangle_view"
+        android:layout_width="18dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/triangle_view"
+        android:gravity="center"
+        android:orientation="horizontal"/>
+
+</RelativeLayout>

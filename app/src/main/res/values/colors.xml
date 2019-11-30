@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_tab_pressed">#dddddd</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="common_background">#F7F7F7</color>
+
+    <color name="divide_line">#dddddd</color>
+    <color name="grey1">#999999</color>
+    <color name="black1">#4D4D4D</color>
+    <color name="black">#000</color>
+
+    <!--公共部分的颜色-->
+    <!--背景颜色-->
+    <color name="background_color">#eeeeee</color>
+    <!--深灰 用于标题、列表、主要内容-->
+    <color name="black_text">#1e1e1e</color>
+    <!--中灰 用于文章详情、大段内容-->
+    <color name="middle_gray_text">#666666</color>
+    <!--浅灰 用于说明文字、不重要的辅助内容-->
+    <color name="tint_gray_text">#999999</color>
+
+    <!--分割线（固定1px）-->
+    <color name="item_divider">#e5e5e5</color>
+    <!--模块间隔 20px(=10dp)-->
+    <color name="item_module">#efeff4</color>
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+
+
+    <!--紫微命盘-->
+    <color name="ziwei_topxing_red">#F24E5D</color>
+    <color name="ziwei_topxing_gray">#6E6F71</color>
+    <color name="ziwei_zuozhongxing">#2C44B1</color>
+    <color name="ziwei_youzhongxing">#378224</color>
+    <color name="ziwei_minggong">#378224</color>
+    <color name="ziwei">#911EB9</color>
+    <color name="ziwei_bg_press">#F6EEC3</color>
+
+</resources>

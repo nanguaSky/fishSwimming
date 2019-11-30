@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.steven.myapplication.view.MingpanView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_ziwei_paipan_normal"></View>
+
+    <!--个人信息-->
+    <RelativeLayout
+        android:id="@+id/ziwei_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_middle"
+        android:visibility="visible"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/item_ziwei_content_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize_m"
+            android:text="姓名： 小南"/>
+
+        <TextView
+            android:id="@+id/item_ziwei_content_animal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_ziwei_content_name"
+            android:textSize="@dimen/textSize_m"
+            android:text="生肖： 猴"/>
+
+        <TextView
+            android:id="@+id/item_ziwei_content_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_ziwei_content_animal"
+            android:textSize="@dimen/textSize_m"
+            android:text="性别： 男"/>
+
+        <TextView
+            android:id="@+id/item_ziwei_content_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_ziwei_content_sex"
+            android:textSize="@dimen/textSize_m"
+            android:text="阳历： 1994-10-20"/>
+
+        <TextView
+            android:id="@+id/item_ziwei_content_oldDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_ziwei_content_date"
+            android:textSize="@dimen/textSize_m"
+            android:text="阴历： 乙亥年三月十九"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_ziwei_content_oldDate"
+            android:layout_marginTop="@dimen/margin_medium">
+
+
+            <TextView
+                android:id="@+id/ziwei_shengong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:text="身宫"/>
+
+            <TextView
+                android:id="@+id/item_ziwei_info_shengong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ziwei_shengong"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/ziwei_topxing_red"
+                android:text="未"/>
+
+            <TextView
+                android:id="@+id/ziwei_minggong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ziwei_shengong"
+                android:layout_toLeftOf="@id/ziwei_shengong"
+                android:text="命宫"/>
+
+            <TextView
+                android:id="@+id/item_ziwei_info_minggong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ziwei_minggong"
+                android:layout_alignLeft="@id/ziwei_minggong"
+                android:textColor="@color/ziwei_topxing_red"
+                android:text="未"/>
+
+
+            <TextView
+                android:id="@+id/ziwei_mingzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ziwei_shengong"
+                android:layout_toRightOf="@id/ziwei_shengong"
+                android:text="命主"/>
+
+            <TextView
+                android:id="@+id/item_ziwei_info_mingzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ziwei_mingzhu"
+                android:layout_alignRight="@id/ziwei_mingzhu"
+                android:textColor="@color/ziwei_topxing_red"
+                android:text="未"/>
+
+            <TextView
+                android:id="@+id/ziwei_shenzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_middle"
+                android:layout_below="@id/item_ziwei_info_minggong"
+                android:layout_toRightOf="@id/ziwei_minggong"
+                android:text="身主"/>
+
+
+            <TextView
+                android:id="@+id/item_ziwei_info_shenzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ziwei_shenzhu"
+                android:layout_alignRight="@id/ziwei_shenzhu"
+                android:textColor="@color/ziwei_topxing_red"
+                android:text="文昌"/>
+
+
+            <TextView
+                android:id="@+id/ziwei_wuxing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_ziwei_info_minggong"
+                android:layout_toLeftOf="@id/ziwei_mingzhu"
+                android:layout_alignBaseline="@id/ziwei_shenzhu"
+                android:text="五行局"/>
+
+            <TextView
+                android:id="@+id/item_ziwei_info_wuxing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ziwei_wuxing"
+                android:layout_alignRight="@id/ziwei_wuxing"
+                android:textColor="@color/ziwei_topxing_red"
+                android:text="火六行"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_below="@id/item_ziwei_info_wuxing"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/shape_ziwei_minggong"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="命盘分析"
+                android:textSize="@dimen/textSize_l"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <!--命宫排盘-->
+    <LinearLayout
+        android:id="@+id/ziwei_paipan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:padding="@dimen/margin_small">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/ziwei_top_xing"
+                android:text="天德"
+                android:lineSpacingExtra="-2dp"
+                android:ems="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天德"
+                android:textSize="@dimen/ziwei_top_xing"
+                android:lineSpacingExtra="-2dp"
+                android:ems="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天德"
+                android:textSize="@dimen/ziwei_top_xing"
+                android:lineSpacingExtra="-2dp"
+                android:ems="1"/>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_ziwei_content_zuozhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="-2dp"
+                android:text="养"
+                android:ems="1"/>
+
+            <TextView
+                android:id="@+id/item_ziwei_content_youzhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:lineSpacingExtra="-2dp"
+                android:text="帝王"
+                android:ems="1"/>
+
+            <TextView
+                android:id="@+id/item_ziwei_content_daxian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/item_ziwei_content_zuozhong"
+                android:layout_toLeftOf="@+id/item_ziwei_content_youzhong"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:text="16 18 10 28 49 19 59"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_ziwei_content_xiaoxian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="22-31"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_tiny"
+            android:layout_gravity="center_horizontal"
+            android:text="乙亥"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small">
+
+            <TextView
+                android:id="@+id/item_ziwei_content_zuoxia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="病符"/>
+
+            <TextView
+                android:id="@+id/item_ziwei_content_minggong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp"
+                android:text="夫妻"
+                android:textColor="@color/white"
+                android:background="@drawable/shape_ziwei_minggong"/>
+
+            <TextView
+                android:id="@+id/item_ziwei_content_youxia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="潘安"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/shape_ziwei_minggong"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="命盘分析"
+            android:textSize="@dimen/textSize_l"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</com.example.steven.myapplication.view.MingpanView>
